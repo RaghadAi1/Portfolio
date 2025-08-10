@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects</title>
   <link rel="stylesheet" href="styling.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -18,73 +18,129 @@
   
 
   <!-- ✅ Navbar first -->
-  <header id="hero">
-    <nav class="navbar1">
+   <!-- ===== Navbar ===== -->
+   <nav class="navbar1">
       <div class="container">
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
         <ul class="nav-menu1">
           <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="About_me.html">About me</a></li>
-          <li><a class="nav-link" href="Projects.html">Projects</a></li>
+          <li><a class="nav-link " href="About_me.html">About me</a></li>
+          <li><a class="nav-link active" href="Projects.html">Projects</a></li>
           <li><a class="nav-link" href="skills.html">Skills</a></li>
+                              <li><a class="nav-link " href="contact.html">Contact</a></li>
+          <li>
+            
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
+   <!-- ===== /Navbar ===== -->
 <section class="projects-header">
   <h2> My Projects</h2>
-  <p>Here are some of the personal and academic projects I've worked on. Each one reflects my learning journey and passion for problem-solving.</p>
 </section>
 
     </header>
-   <section id="projects" class="project-grid">
-  <div class="project-card">
-    <div class="project-img" style="background-image: url('Photos/mysql2.png');"></div>
-    <div class="project-content">
-      <h3>Blood Donation Management System</h3>
-      <p class="project-sub">MySQL project for hospital donors</p>
-      <div class="project-links">
-        <a href="https://github.com/RaghadAi1/Blood-Donation-Management-System" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <button class="read-more">Read more</button>
-      </div>
+  <section id="projects" class="projects-slider">
+  <h2 class="sr-only">Projects</h2>
+
+  <button class="proj-btn prev" aria-label="Previous">‹</button>
+
+  <div class="proj-viewport">
+    <div class="proj-track">
+      <!-- Slide 1 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/mysql2.png');"></div>
+        <div class="project-content">
+          <h3>Blood Donation Management System</h3>
+          <p class="project-sub">MySQL project for hospital donors</p>
+          <div class="project-links">
+            <a href="https://github.com/RaghadAi1/Blood-Donation-Management-System" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Slide 2 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/software-engineering-banner2400.png');"></div>
+        <div class="project-content">
+          <h3>Book Inventory System</h3>
+          <p class="project-sub">Software Engineering system to manage books</p>
+          <div class="project-links">
+            <a href="https://github.com/RaghadAi1/Software-" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Slide 3 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/figma.png');"></div>
+        <div class="project-content">
+          <h3>UI/UX Design</h3>
+          <p class="project-sub">Planetary Journey: Interstellar Adventure</p>
+          <div class="project-links">
+            <a href="https://www.figma.com/proto/t3bvh3RqVXcOJl1KVTmhsd/Ui%2FUx?node-id=205-2&t=gghcW3mC4RGADat2-1&scaling=contain&content-scaling=fixed" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+<!-- Slide 4 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/python.png');"></div>
+        <div class="project-content">
+          <h3>python Projects</h3>
+          <p class="project-sub">Data science Projects</p>
+          <div class="project-links">
+            <a href="https://github.com/RaghadAi1/Python_Projects_DataScience" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+      <!-- Slide 4 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/Django.png');"></div>
+        <div class="project-content">
+          <h3>Django Project</h3>
+          <p class="project-sub">BlogWebsite,Admin page</p>
+          <div class="project-links">
+            <a href="https://github.com/RaghadAi1/Python_Projects_DataScience" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+       <!-- Slide 4 -->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/flutter.png');"></div>
+        <div class="project-content">
+          <h3>Smart Health Management App</h3>
+          <p class="project-sub">A Flutter application for managing health and nutrition </p>
+          <div class="project-links">
+            <a href="https://github.com/RaghadAi1/Smart-Health-Management-App-" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+          <!-- Slide 5-->
+      <article class="project-card">
+        <div class="project-img" style="background-image:url('Photos/masaar.png');"></div>
+        <div class="project-content">
+          <h3>Flutter app</h3>
+          <p class="project-sub">Ride booking app</p>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/10W2_bE2dWOG_5cVVFiOXkYhgrUUHC3Hy/view?usp=sharing" target="_blank">                          <button class="read-more">Read more</button>
+</i>
+            </a>
+          </div>
+        </div>
+
+      </article>
     </div>
   </div>
 
-  <div class="project-card">
-    <div class="project-img" style="background-image: url('Photos/software-engineering-banner2400.png');"></div>
-    <div class="project-content">
-      <h3>Book Inventory System</h3>
-      <p class="project-sub">Software Engineering system to manage books</p>
-      <div class="project-links">
-        <a href="https://github.com/RaghadAi1/Software-" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <button class="read-more">Read more</button>
-      </div>
-    </div>
-  </div>
+  <button class="proj-btn next" aria-label="Next">›</button>
 
-  <div class="project-card">
-    <div class="project-img" style="background-image: url('Photos/figma.png');"></div>
-    <div class="project-content">
-      <h3>UI/UX Design</h3>
-      <p class="project-sub">Planetary Journey: Interstellar Adventure</p>
-      <div class="project-links">
-        <a href="https://www.figma.com/proto/t3bvh3RqVXcOJl1KVTmhsd/Ui%2FUx?node-id=205-2&t=gghcW3mC4RGADat2-1&scaling=contain&content-scaling=fixed" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <button class="read-more">Read more</button>
-      </div>
-    </div>
-  </div>
+  <div class="proj-dots" aria-hidden="true"></div>
+</section>
 
   
   <!-- Floating effects -->
+   <script src="js/projects-slider.js" defer></script>
+
   <script src="js/effects.js" defer></script>
 </body>
 </html>

@@ -1,91 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styling.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Home page</title>
     <script src="js/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
+
 <body>
-            <div class="wrapper2">
+       <div class="wrapper2">
             <div class="left-half"></div>
             <div class="right-half"></div>
         </div>
     
 
-    <header id="hero">
-       <nav class="navbar">
+     <!-- ===== Navbar ===== -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<nav class="navbar1">
   <div class="container">
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-   <ul class="nav-menu">
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="About_me.html">About me</a></li>
-          <li><a class="nav-link" href="Projects.html">Projects</a></li>
-          <li><a class="nav-link" href="skills.html">Skills</a></li>
-        <li><a class="nav-link btn btn-primary" href="Photos/cv_copy.pdf">RESUME <i class="fas fa-arrow-right"></i></a>
-        </ul>
-
-    <!-- The hamburger menu can be used to toggle the visibility of a nav menu -->
-<!-- Hamburger menu -->
-<!-- <nav>
-    <div class="hamburger">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-    </div>
-    </nav> -->
-</div>
-
-
-
-<!-- profile image -->
-<section class="header-container">
+   
     
-    <div class="content-text">   
-    <h1>Software enginnering</h1>
+    <!-- وسط: القائمة -->
+    <ul class="nav-menu1">
+      <li><a class="nav-link active" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="About_me.html">About me</a></li>
+      <li><a class="nav-link" href="Projects.html">Projects</a></li>
+      <li><a class="nav-link" href="skills.html">Skills</a></li>
+      <li><a class="nav-link " href="contact.html">Contact</a></li>
+
+      <li>
+        <a class="nav-link btn btn-primary" href="Photos/cv_copy.pdf" target="_blank" rel="noopener">
+          RESUME <i class="fas fa-arrow-right"></i>
+        </a>
+      </li>
+    </ul>
+
+    <!-- يمين: أكشن + هامبرغر للموبايل -->
+    <div class="nav-actions">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<!-- ===== /Navbar ===== -->
+
+<section class="header-container">
+  <div class="content-text">
+    <h1>Software engineering</h1>
     <h2>Raghad Alqmani</h2>
     <p>
-        Ambitious Computer Science Student Who is Interested in the Technology World.<br>  I Have a Deep Love For Coding, problem Solving and Learning New Things.</p>
-</div>
-
-<!-- create a button for contact and add the linkden link -->
-<a href="https://www.linkedin.com/in/raghad-alqmani-062a86299/" 
-class="btn btn-secondary">Connect With Me on linkdein</a>
+      Ambitious Computer Science Student Who is Interested in the Technology World.<br>
+      I Have a Deep Love For Coding, problem Solving and Learning New Things.
+    </p>
+  </div>
+  <a href="https://www.linkedin.com/in/raghad-alqmani-062a86299/"
+     class="btn btn-secondary" target="_blank" rel="noopener">
+    Connect With Me on LinkedIn
+  </a>
 </section>
-</header>
-    <!-- the start of the footer -->
-    <footer id="footer">
-        <div class="container">
 
-
-        <!-- Social links buttons and pic-->
-        <div class="social">
-
-    <!-- <h3>contact with me </h3>      -->
-    <!-- when ypu click on href you will go into new screen or same # -->
-
-            <a href="www.linkedin.com/in/
-" target="_blank"><img src="Photos/linkedin.png" alt="Linkedin"/></a>
-
-            <a href="https://github.com" target="_blank"><img src="Photos/github.png" alt="GitHub" /></a>
-    
-    <a href="mailto:Raghdal@outlook.com" target="_blank">
-        <img src="Photos/outlook.png" alt="outlook"/>
-            </a>
-        </div>
-        <!-- the end of the page footer -->
-        <p>Copyright &copy;  <span id="datee"></span>, All rights reserved</p>
-    </footer>
-
-
-    <!-- <div class="date" id="currentDate"></div> -->
 <script src="js/effects.js" defer></script>
+
 </body>
 </html>
